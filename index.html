@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Code Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sidebar">
+    <h2>Lesson <span id="lesson-number">1</span>: <span id="lesson-title">Write a Heading</span></h2>
+    <div id="explanation">
+      <p id="lesson-explanation"></p>
+    </div>
+    <div id="example">
+      <strong>Example (Not your task):</strong>
+      <pre id="lesson-example"></pre>
+      <p>This code shows how to complete the task. Follow the instructions carefully.</p>
+    </div>
+    <div id="instructions">
+      <p id="lesson-instruction"></p>
+    </div>
+    <button id="checkCodeButton">Check Code</button>
+  </div>
+
+  <div id="editor-container">
+    <div id="editor">
+      <h3>HTML</h3>
+      <textarea id="htmlCode" placeholder="Write your HTML code here..."></textarea>
+
+      <h3>CSS</h3>
+      <textarea id="cssCode" placeholder="Write your CSS code here..."></textarea>
+
+      <h3>JavaScript</h3>
+      <textarea id="jsCode" placeholder="Write your JavaScript code here..."></textarea>
+    </div>
+    <div id="preview">
+      <iframe id="output"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
